@@ -1,0 +1,23 @@
+:root {
+  --primary: #5100ff;
+}
+
+.btn{
+    padding: 10px 18px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    font-size: 17px;
+    color: #fff;
+    cursor: pointer;
+    background-color: var(--primary);
+}
+
+.btn:hover {
+    padding: 10px 18px;
+    transition: all 0.3s ease-out;
+    background-color: darkorchid;
+    color: white;
+    border-radius: 5px;
+    border: 2px solid darkorchid;
+}
